@@ -107,26 +107,16 @@ img {
     margin-right: 50px;
 }
 
-/* .navigation-link:hover::after,
-.navigation-link:focus::after {
+.current::after {
     position: absolute;
-    bottom: 0;
-    display: flex;
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: #2196F3;
-    border-radius: 2px;
-} */
-
-/* .navigation-link::after {
     content: "";
     display: block;
     width: 100%;
-    height: 5px;
-    background-color: red;
-} */
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
 
+}
 
 .navigation-link:hover,
 .navigation-link:focus {
